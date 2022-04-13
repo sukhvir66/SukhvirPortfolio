@@ -1,0 +1,258 @@
+.app {
+  border-radius: 25px;
+  background: linear-gradient(to bottom right,rgb(46, 46, 46), rgb(17, 17, 17));
+border-color: black;
+box-shadow:  5px 5px 8px #4d4b4b,
+             -5px -5px 8px #726d6d;
+}
+.skil{
+  border-color: black;
+   box-shadow:  4px 4px 6px #4d4b4b,
+             -4px -4px 6px #726d6d;
+             margin-top: 64px;
+         
+
+}
+.foot{
+  color: white;
+  text-align:center;
+   color:grey;
+
+}
+.foot1{
+  margin-top: 124px;
+}
+
+.an{
+  color: aliceblue;
+}
+.ant{
+  color: rgb(139, 214, 236);
+}
+.home2{
+  border-radius: 30px;
+background: #e0e0e00e;
+}
+.home{
+  border-radius: 30px;
+  background: linear-gradient(185deg, #4e4b4b, #1a1818);
+box-shadow:  2px 2px 5px #4d4b4b,
+             -2px -2px 5px #726d6d;
+             margin-top: 64px;
+}
+.home:hover{
+  box-shadow:  2px 2px 5px #094369,
+             -2px -2px 5px #0d3e5a;
+             cursor: pointer;
+}
+.ff
+{
+  font-family: 'Lobster', cursive;
+}
+.f2{
+  font-family: 'Inspiration', cursive;
+}
+.hrr{
+  border: 1px solid rgb(99, 92, 92)
+}
+.hrr1{
+  border: 1px solid rgb(27, 32, 39)
+}
+.im{
+  height:300px;
+  border-radius: 34px;
+}
+.img1{
+  height:70px;
+  border-radius: 55px;
+}
+.mtt{
+  margin-top: 64px;  
+  color: rgb(152, 161, 165);
+}
+.ab{
+  margin-top: 52px;border-radius: 166px;
+  background: linear-gradient(145deg, #4e4b4b, #1a1818);
+  box-shadow:  5px 5px 5px #574c4c,
+               -5px -5px 5px #4e4848;
+    transition: 1s box-shadow;  
+                    
+}
+
+.ab:hover{
+  box-shadow:  0 5px 35px rgba(34, 146, 197, 0.685);
+    cursor: pointer;
+ 
+}
+.ab:hover:before, .ab:hover:after{
+ background: #3d8ead;
+  display:block;
+  position:absolute;
+  z-index:-1;
+  animation:1s clockwise infinite;
+  
+
+}
+.ab:hover:after{
+  background: #5e6668;
+  animation: 2s counterclockwise infinite;
+}
+@keyframes clockwise{
+ 
+  0%{
+    top:-5px;
+    left:0px;
+  }
+  12%{
+   top:-2px;
+   left:2px;
+ }
+ 25%{
+   top:0px;
+   left:5px;
+ }
+ 37%{
+   top:2px;
+   left:2px;
+ }
+ 
+ 50%{
+   top:5px;
+   left:0px;
+ }
+ 62%{
+   top:2px;
+   left:-2px;
+ }
+ 62%{
+   top:2px;
+   left:-2px;
+ }
+ 75%{
+   top:0px;
+   left:-5px;
+ }
+ 87%{
+   top:-2px;
+   left:-2px;
+ }
+ 100%{
+   top:-5px;
+   left:0px;
+ }
+ }
+ @keyframes counterclockwise{
+ 
+  0%{
+    top:-5px;
+    left:0px;
+  }
+  12%{
+   top:-2px;
+   left:2px;
+ }
+ 25%{
+   top:0px;
+   left:5px;
+ }
+ 37%{
+   top:2px;
+   left:2px;
+ }
+ 
+ 50%{
+   top:5px;
+   left:0px;
+ }
+ 62%{
+   top:2px;
+   left:-2px;
+ }
+ 62%{
+   top:2px;
+   left:-2px;
+ }
+ 75%{
+   top:0px;
+   left:-5px;
+ }
+ 87%{
+   top:-2px;
+   left:-2px;
+ }
+ 100%{
+   top:-5px;
+   left:0px;
+ }
+ }
+.bor{
+  border-radius: 565px;
+ 
+}
+.marg{
+  margin-top: 34px;
+}
+.pp{
+  text-align: justify;
+  overflow-wrap: break-word;
+}
+.bck{
+  border-radius: 26px;
+  background: linear-gradient(145deg, #4e4b4bea, #1a1818be);
+  box-shadow:  5px 5px 5px #574c4c,
+               -5px -5px 5px #4e4848;
+      transition: all 0.5s;        
+}
+.bck:hover{
+ 
+cursor: pointer;
+box-shadow:  6px 6px 12px #105a85,
+-6px -6px 12px #114c63;
+transform: scale(1.15);
+      
+}
+
+.wimg{
+
+  border-radius:14px ;
+}
+.cont{
+  margin-top: 64px;
+  border-radius: 26px;
+  background: linear-gradient(145deg, #4e4b4b, #1a1818);
+  box-shadow:  5px 5px 5px #574c4c,
+               -5px -5px 5px #4e4848;
+               margin-top: 64px;            
+}
+.cont:hover{
+  box-shadow:  5px 5px 5px #0a688d,
+  -5px -5px 5px #08496e;
+
+}
+.contbor{
+  border-radius: 26px;
+ 
+  box-shadow:  1px 1px 2px #574c4c,
+               -1px -1px 2px #4e4848;
+}
+.contbor:hover{
+  box-shadow:  1px 1px 2px #033f4e,
+  -1px -1px 2px #10343a;
+  cursor: pointer;
+}
+.cd{
+  box-shadow:  5px 5px 5px #1b1a1a,
+  -5px -5px 5px #1b1717;
+ 
+}
+.cd:hover{
+  box-shadow:  5px 5px 5px #0d4566,
+  -5px -5px 5px #083f55;
+  cursor: pointer;
+}
+.ccard{
+  border-radius: 30px;
+background: #4f4a4a;
+box-shadow: inset 12px 12px 24px #3b3838,
+            inset -12px -12px 24px #242323;
+}
